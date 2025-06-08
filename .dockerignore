@@ -1,0 +1,47 @@
+# Build artifacts
+target/
+*.jar
+!target/*.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.eclipse/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+
+# Documentation
+README.md
+DEPLOYMENT_GUIDE.md
+*.md
+
+# Frontend (deployed separately)
+frontend/
+
+# Netlify config
+netlify.toml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Node.js (if any)
+node_modules/
+npm-debug.log
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore 
